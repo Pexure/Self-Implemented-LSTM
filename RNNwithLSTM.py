@@ -153,8 +153,6 @@ def word_embedding_backward(dout, cache):
     since they are integers, so we only return gradient for the word embedding
     matrix.
 
-    HINT: Look up the function np.add.at
-
     Inputs:
     - dout: Upstream gradients of shape (N, T, D)
     - cache: Values from the forward pass
